@@ -31,23 +31,23 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         body {
-            background-color: white !important;
+            background-color: aqua !important;
         }
 
         .text-primary {
-            color: skyblue !important;
+            color: black !important;
         }
 
         .text-white {
-            color: white !important;
+            color: rgb(0, 0, 0) !important;
         }
 
         .bg-dark {
-            background-color: skyblue !important;
+            background-color: rgb(255, 255, 255) !important;
         }
 
         .border-top {
-            border-top-color: rgba(256, 256, 256, .1) !important;
+            border-top-color: aqua !important;
         }
     </style>
 
@@ -55,18 +55,22 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
+    <div class="container-fluid d-none d-lg-block" style="background-color: white !important;">
+       <center>
+
         <div class="row align-items-center py-3 px-xl-5">
             <div class="col-lg-3">
                 <!-- Navbar Start -->
+
                 <div class="container-fluid">
                     <div class="row border-top px-xl-5">
                         <div class="col-lg-9 d-flex justify-content-center"> <!-- Updated this line -->
                             <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                                <!-- <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;"> <b>MUTHIGA ACADEMY</b> -->
+
                                 <a href="" class="text-decoration-none d-block d-lg-none">
-                                    <h1 class="m-0"><span class="text-primary">MUTHIGA</span>ACADEMY</h1>
+                                    <!-- <h1 class="m-0"><span class="text-primary">MUTHIGA</span>ACADEMY</h1> -->
                                 </a>
-                                <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;"> <!-- Updated this line -->
                             </nav>
                         </div>
                     </div>
@@ -101,31 +105,33 @@
                 </div>
             </div>
         </div>
+       </center>
     </div>
     <!-- Topbar End -->
 
 <!-- Navbar Start -->
-<div class="container-fluid">
+<div class="container-fluid" style="background-color: white !important;">
     <div class="row border-top px-xl-5">
-        <div class="col-lg-9 d-flex justify-content-center"> <!-- Updated this line -->
-            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                <a href="" class="text-decoration-none d-block d-lg-none">
-                    <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;"> <!-- Updated this line -->
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        
+        <div class="col-lg-9">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0" style="background-color: white !important;">
+                <div class="col-lg-3 d-flex align-items-center">
+                    <!-- Logo -->
+                    <a href="" class="text-decoration-none d-block">
+                        <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;"><b>MUTHIGA ACADEMY</b>
+                    </a>
+                </div>
+                <button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="navbarCollapse" class="navbar-collapse">
-                    <div class="navbar-nav py-0">
+                <div id="navbarCollapse" class="navbar-collapse collapse">
+                    <div class="navbar-nav ml-auto py-0" style="font-size: larger !important; background-color: white !important;">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About Us</a>
                         <a href="#school" class="nav-item nav-link">School Academics</a>
-                        <a href="gallery.html" class="nav-item nav-link" >Gallery</a>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <!-- <div class="d-flex align-items-center">
-                        <a class="btn btn-primary py-2 px-4 d-none d-lg-block" href="" style="background-color: skyblue !important;">Apply Today</a>
-                    </div> -->
                 </div>
             </nav>
         </div>
@@ -149,9 +155,9 @@
                     <img class="position-relative w-100" src="img/carousel-1.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">Muthiga Academy</h5>
-                            <h1 class="display-3 text-white mb-md-4">The Secure Foundation</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <h5 class="text-white text-uppercase mb-md-3" style="color: aqua !important;">Muthiga Academy</h5>
+                            <h1 class="display-3 text-white mb-md-4" style="color: white !important;">The Secure Foundation</h1>
+                            <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"style="color: white !important;">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -159,9 +165,9 @@
                     <img class="position-relative w-100" src="img/carousel-2.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">Excellence in Education</h5>
-                            <h1 class="display-3 text-white mb-md-4">Fostering Lifelong Learners</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <h5 class="text-white text-uppercase mb-md-3" style="color: aqua !important;">Excellence in Education</h5>
+                            <h1 class="display-3 text-white mb-md-4"style="color: white !important;">Fostering Lifelong Learners</h1>
+                            <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2" style="color: white !important;>Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -169,9 +175,9 @@
                     <img class="position-relative w-100" src="img/carousel-3.jpg" style="min-height: 300px; object-fit: cover;">
                     <div class="carousel-caption d-flex align-items-center justify-content-center">
                         <div class="p-5" style="width: 100%; max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-md-3">Nurturing Young Minds</h5>
-                            <h1 class="display-3 text-white mb-md-4">Empowering the Leaders of Tomorrow</h1>
-                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                            <h5 class="text-white text-uppercase mb-md-3" style="color: aqua !important;">Nurturing Young Minds</h5>
+                            <h1 class="display-3 text-white mb-md-4"style="color: white !important;">Empowering the Leaders of Tomorrow</h1>
+                            <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a> -->
                         </div>
                     </div>
                 </div>
@@ -181,28 +187,26 @@
     <!-- Carousel End -->
 
     <!-- About Start -->
-   <section  id="about">
-    <div class="container-fluid py-5" id="about">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="">
-                </div>
-                <div class="col-lg-7">
-                    <div class="text-left mb-4">
+   
+<section id="about" style="display: flex; justify-content: center; align-items: center; "></section>
+    <div class="container">
+        <div class="row">
+            <div> 
+                <div >
+                    <div >
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
                         <h1>Muthiga Academy</h1>
                     </div>
-                    <p>Muthiga Academy is a distinguished educational institution located in Kiambu, Kenya. With our motto "The Secure Foundation," our vision is to foster a community where all children feel loved, respected, and encouraged to develop to their full potential.</p>
-                    <p>At Muthiga Academy, we prioritize providing a well-rounded education that values both academic excellence and holistic development. Our dedicated faculty members are committed to nurturing young minds and helping students achieve their personal and academic goals. We offer the national Competency Based Curriculum (CBC) that is designed to inspire creativity, critical thinking, and a lifelong love for learning.</p>
-                    <p>Our school provides a supportive and inclusive environment where students can thrive academically, socially, and emotionally. Muthiga Academy is equipped with modern facilities and resources to support various extracurricular activities. We believe in a balanced approach to education, ensuring that students have opportunities to explore their interests beyond the classroom.</p>
-                    <p>Our commitment to excellence, community, and cultivating a sense of security and belonging sets Muthiga Academy apart as an exceptional educational institution in Kiambu, Kenya. We are proud to provide a secure foundation for our students as they embark on their educational journey.</p>
+                    <p style="font-size: 30px !important;">Muthiga Academy is a distinguished educational institution located in Kiambu, Kenya. With our motto "The Secure Foundation," our vision is to foster a community where all children feel loved, respected, and encouraged to develop to their full potential.</p>
+                    <p style="font-size: 30px !important;">At Muthiga Academy, we prioritize providing a well-rounded education that values both academic excellence and holistic development. Our dedicated faculty members are committed to nurturing young minds and helping students achieve their personal and academic goals. We offer the national Competency Based Curriculum (CBC) that is designed to inspire creativity, critical thinking, and a lifelong love for learning.</p>
+                    <p style="font-size: 30px !important;">Our school provides a supportive and inclusive environment where students can thrive academically, socially, and emotionally. Muthiga Academy is equipped with modern facilities and resources to support various extracurricular activities. We believe in a balanced approach to education, ensuring that students have opportunities to explore their interests beyond the classroom.</p>
+                    <p style="font-size: 30px !important;">Our commitment to excellence, community, and cultivating a sense of security and belonging sets Muthiga Academy apart as an exceptional educational institution in Kiambu, Kenya. We are proud to provide a secure foundation for our students as they embark on their educational journey.</p>
                 </div>
-            </div>
+             </div>
         </div>
     </div>
-   </section>
-    <!-- About End -->
+   </section> 
+     <!-- About End  -->
     <script>
         // Smooth scrolling for anchor links
         $(document).ready(function(){
@@ -220,12 +224,44 @@
         });
     </script>
     
-
+<!-- Mission, Vision, and Motto Start -->
+<section class="py-5" style="background-color: #f8f9fa;" style="font-size: 30px !important;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary mb-3">Our Mission</h3>
+                        <p class="card-text">At Muthiga Academy, our mission is to provide a nurturing and intellectually stimulating environment where students can reach their full potential. We are committed to empowering young minds with the knowledge, skills, and values necessary to become responsible global citizens.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary mb-3">Our Vision</h3>
+                        <p class="card-text">Our vision is to be a leading educational institution that shapes the leaders of tomorrow. We strive to create an environment that fosters academic excellence, personal growth, and a passion for lifelong learning, preparing our students for the challenges and opportunities of an ever-evolving world.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-primary mb-3">Our Motto</h3>
+                        <p class="card-text"><em>"Educating Minds, Shaping Futures"</em></p>
+                        <p class="card-text">Our motto reflects our commitment to not only imparting knowledge but also shaping the character and values of our students, ensuring they are well-equipped to navigate the path towards a successful and fulfilling future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- Mission, Vision, and Motto End -->
     <!-- Values Start -->
-    <section id="school">
+    <section id="school" style="font-size: 20px !important;">
         <div class="container-fluid py-5">
             <div class="container py-5">
-                <div class="text-center mb-5">
+                <div class="text-center mb-5" style="width: 100%;"></div>
                     <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Our Values</h5>
                     <h1>The Foundation of Our Educational Philosophy</h1>
                 </div>
@@ -255,6 +291,7 @@
                                 <h4 class="m-0 ml-3">Honesty</h4>
                             </div>
                             <p>Integrity and honesty are fundamental to our academic and personal conduct. We instill in our students the importance of truthfulness and ethical behavior in all aspects of their lives.</p>
+                        <br>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-4">
@@ -264,6 +301,7 @@
                                 <h4 class="m-0 ml-3">Responsibility</h4>
                             </div>
                             <p>We empower our students to take ownership of their actions and academic pursuits. Encouraging responsibility cultivates leadership skills and a sense of accountability.</p>
+                        <br>
                         </div>
                     </div>
                     <!-- <div class="col-lg-3 col-md-6 mb-4">
@@ -285,13 +323,13 @@
 <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
     <div class="container py-5">
         <div class="row align-items-center">
-            <div class="col-lg-7 mb-5 mb-lg-0">
-                <div class="mb-4">
-                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Enrollment</h5>
-                    <h1 class="text-white">Secure Your Child's Future</h1>
+            <div class="col-lg-7 mb-5 mb-lg-0" >
+                <div class="mb-4" style="color: white !important;">
+                    <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px; color: white !important;">Enrollment</h5>
+                    <h1 class="text-white" style="color: white !important;">Secure Your Child's Future</h1>
                 </div>
-                <p class="text-white">At Muthiga Academy, we believe in providing a nurturing environment where your child can grow and thrive. Our dedicated team of educators is committed to fostering a love for learning and empowering each student to reach their full potential.</p>
-                <ul class="list-inline text-white m-0">
+                <p class="text-white" style="color: white !important;">At Muthiga Academy, we believe in providing a nurturing environment where your child can grow and thrive. Our dedicated team of educators is committed to fostering a love for learning and empowering each student to reach their full potential.</p>
+                <ul class="list-inline text-white m-0" style="color: white !important;">
                     <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Holistic Education</li>
                     <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Supportive Community</li>
                     <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Extracurricular Activities</li>
@@ -343,7 +381,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 mb-5">
-                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
+                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">What we offer </h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Numeracy</a>
                         <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Literacy</a>
