@@ -31,111 +31,103 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         body {
-            background-color: white !important;
+            background-color: aqua !important;
         }
 
         .text-primary {
-            color: skyblue !important;
+            color: black !important;
         }
 
         .text-white {
-            color: white !important;
+            color: rgb(0, 0, 0) !important;
         }
 
         .bg-dark {
-            background-color: skyblue !important;
+            background-color: rgb(255, 255, 255) !important;
         }
 
         .border-top {
-            border-top-color: rgba(256, 256, 256, .1) !important;
+            border-top-color: aqua !important;
         }
     </style>
 
 </head>
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center py-3 px-xl-5">
-            <div class="col-lg-3">
-                <!-- Navbar Start -->
-                <div class="container-fluid">
-                    <div class="row border-top px-xl-5">
-                        <div class="col-lg-9 d-flex justify-content-center"> <!-- Updated this line -->
-                            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                                <a href="" class="text-decoration-none d-block d-lg-none">
-                                    <h1 class="m-0"><span class="text-primary">MUTHIGA</span>ACADEMY</h1>
-                                </a>
-                                <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;"> <!-- Updated this line -->
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-                <!-- Navbar End -->
-            </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Our School</h6>
-                        <small>Muthiga</small>
-                    </div>
+<!-- Topbar Start -->
+<div class="container d-none d-md-flex justify-content-center py-3" style="background-color: white !important;">
+    <div class="row w-100 align-items-center">
+        <div class="col-md-4 col-sm-6 d-flex justify-content-center mb-3 mb-md-0">
+            <div class="d-inline-flex align-items-center">
+                <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                <div class="text-left">
+                    <h6 class="font-weight-semi-bold mb-1">Our School</h6>
+                    <small>Muthiga</small>
                 </div>
             </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
-                        <small>info@muthigaprimary.ac.ke</small>
-                    </div>
+        </div>
+        <div class="col-md-4 col-sm-6 d-flex justify-content-center mb-3 mb-md-0">
+            <div class="d-inline-flex align-items-center">
+                <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                <div class="text-left">
+                    <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
+                    <small>info@muthigaprimary.ac.ke</small>
                 </div>
             </div>
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-                        <small>254 711 410 179</small>
-                    </div>
+        </div>
+        <div class="col-md-4 col-sm-12 d-flex justify-content-center">
+            <div class="d-inline-flex align-items-center">
+                <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                <div class="text-left">
+                    <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
+                    <small>254 711 410 179</small>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+</div>
+<!-- Topbar End -->
+
 
 <!-- Navbar Start -->
-<div class="container-fluid">
+<div class="container-fluid" style="background-color: white !important;">
     <div class="row border-top px-xl-5">
-        <div class="col-lg-9 d-flex justify-content-center"> <!-- Updated this line -->
-            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-                <a href="" class="text-decoration-none d-block d-lg-none">
-                    <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;"> <!-- Updated this line -->
-                </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="navbarCollapse" class="navbar-collapse">
-                    <div class="navbar-nav py-0">
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0" style="background-color: white !important;">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <!-- Logo -->
+                    <a href="" class="text-decoration-none d-block mr-3">
+                        <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;">
+                        <b>MUTHIGA ACADEMY</b>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div id="navbarCollapse" class="navbar-collapse collapse">
+                    <div class="navbar-nav ml-auto py-0" style="font-size: larger !important; background-color: white !important;">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About Us</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
                         <a href="#school" class="nav-item nav-link">School Academics</a>
-                        <a href="gallery.html" class="nav-item nav-link" >Gallery</a>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
-                    <!-- <div class="d-flex align-items-center">
-                        <a class="btn btn-primary py-2 px-4 d-none d-lg-block" href="" style="background-color: skyblue !important;">Apply Today</a>
-                    </div> -->
                 </div>
             </nav>
         </div>
     </div>
 </div>
 <!-- Navbar End -->
-   
-    <!-- Gallery Start -->
-   
-                    <!-- Gallery Start -->
+    
+   <!-- Add this CSS -->
+<style>
+    .portfolio-item img {
+        height: 300px; /* Set the desired height for all images */
+        object-fit: cover; /* Maintain aspect ratio */
+    }
+</style>
+
+<!-- Gallery Start -->
 <div class="container-fluid py-5">
     <div class="container pt-5 pb-3">
         <div class="text-center mb-5">
@@ -155,126 +147,128 @@
         <div class="row portfolio-container">
             <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                 <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/school-life-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (1).jpg" alt="School Life 1">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/school-life-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        <a href="img/gallery/games1 (1).jpg" data-lightbox="portfolio">
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
                 <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/clubs-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (10).jpg" alt="Clubs 1">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         <a href="img/gallery/clubs-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                 <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/assemblies-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (9).jpg" alt="Assemblies 1">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/school-life-1.jpg" alt="">
-                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/school-life-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/clubs-1.jpg" alt="">
-                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/clubs-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                 <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/assemblies-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (8).jpg" alt="Assemblies 1">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div> <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/school-life-1.jpg" alt="">
-                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/school-life-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/clubs-1.jpg" alt="">
-                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/clubs-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                 <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/assemblies-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (7).jpg" alt="Assemblies 1">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div> <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/school-life-1.jpg" alt="">
-                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/school-life-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/clubs-1.jpg" alt="">
-                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                        <a href="img/gallery/clubs-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
                 <div class="position-relative overflow-hidden mb-2">
-                    <img class="img-fluid w-100" src="img/gallery/assemblies-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (6).jpg" alt="Assemblies 1">
                     <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                         <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
-                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
                         </a>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (5).jpg" alt="Assemblies 1">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (4).jpg" alt="Assemblies 1">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid w-100" src="img/gallery/games1 (3).jpg" alt="Assemblies 1">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="img/gallery/assemblies-1.jpg" data-lightbox="portfolio">
+                            <!-- <i class="fa fa-plus text-white" style="font-size: 60px;"></i> -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more portfolio items as needed -->
         </div>
     </div>
 </div>
 <!-- Gallery End -->
+
+<!-- Add this JavaScript -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const portfolioFilters = document.querySelectorAll("#portfolio-flters li");
+
+        portfolioFilters.forEach(function (filter) {
+            filter.addEventListener("click", function () {
+                portfolioFilters.forEach(function (f) {
+                    f.classList.remove("active");
+                });
+                this.classList.add("active");
+
+                const selectedFilter = this.getAttribute("data-filter");
+                const portfolioItems = document.querySelectorAll(".portfolio-item");
+
+                portfolioItems.forEach(function (item) {
+                    if (selectedFilter === "*" || item.classList.contains(selectedFilter)) {
+                        item.style.display = "block";
+                    } else {
+                        item.style.display = "none";
+                    }
+                });
+            });
+        });
+    });
+</script>
+
+
 
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
