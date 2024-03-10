@@ -49,12 +49,31 @@
         .border-top {
             border-top-color: skyblue !important;
         }
+        .section {
+            padding: 80px 0;
+        }
+        .section-heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section-heading h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .section-heading p {
+            font-size: 18px;
+            color: #777;
+        }
+        .animate__animated {
+            --animate-duration: 1s;
+        }
     </style>
-
 </head>
-
 <body>
-<!-- Topbar Start -->
+    <!-- Header and Navigation -->
+    <!-- ... -->
+    <!-- Topbar Start -->
 <div class="container d-none d-md-flex justify-content-center py-3" style="background-color: white !important;">
     <div class="row w-100 align-items-center">
         <div class="col-md-4 col-sm-6 d-flex justify-content-center mb-3 mb-md-0">
@@ -96,7 +115,8 @@
             <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0" style="background-color: white !important;">
                 <div class="d-flex justify-content-between align-items-center w-100">
                     <!-- Logo -->
-                    <a href="index.html" class="text-decoration-none d-block mr-3">                        <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;">
+                    <a href="index.html" class="text-decoration-none d-block mr-3">
+                        <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;">
                         <b style="font-size: 40px !important;">MUTHIGA ACADEMY & JSS</b>
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -119,107 +139,160 @@
 <!-- Navbar End -->
     
 
-    
-    <!-- Header Start -->
-    <div class="container-fluid page-header" style="margin-bottom: 90px;">
+
+    <!-- Academics Section 1: Introduction -->
+    <div class="section bg-light">
         <div class="container">
-            <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Contact</h3>
-                <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
-                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Contact</p>
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <img src="academics-intro.jpg" alt="Academics Introduction" class="img-fluid">
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <h2>Welcome to Muthiga Academy</h2>
+                    <p>At Muthiga Academy, we are committed to providing a nurturing and stimulating learning environment that fosters academic excellence, personal growth, and social responsibility.</p>
+                    <p>Our comprehensive curriculum is designed to challenge and engage students, encouraging them to reach their full potential and develop a lifelong love for learning.</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Header End -->
-<!-- Contact Start -->
-<div class="row">
-    <div class="col-lg-8 mx-auto">
-        <div class="text-center mb-5">
-            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Contact</h5>
-            <h1>Get in Touch</h1>
-        </div>
-        <div class="contact-form bg-light rounded p-5">
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                <div class="form-group">
-                    <input type="text" class="form-control border-0" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+
+    <!-- Academics Section 2: Curriculum Highlights -->
+    <div class="section">
+        <div class="container">
+            <div class="section-heading animate__animated animate__fadeInUp">
+                <h2>Curriculum Highlights</h2>
+                <p>Our curriculum is designed to provide a well-rounded education that prepares students for success in the 21st century.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animate__animated animate__fadeInUp">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">STEM Education</h4>
+                            <p class="card-text">We emphasize Science, Technology, Engineering, and Mathematics (STEM) education to equip students with the skills needed for the modern workforce.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control border-0" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Arts and Culture</h4>
+                            <p class="card-text">Our curriculum includes a strong focus on the arts and cultural studies, fostering creativity, self-expression, and appreciation for diverse cultures.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control border-0" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Extracurricular Activities</h4>
+                            <p class="card-text">We offer a wide range of extracurricular activities, including sports, clubs, and community service, to promote well-rounded student development.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <textarea class="form-control border-0" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="row mt-5">
-    <div class="col-lg-8 mx-auto">
-        <div class="map-container rounded">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4440423477796!2d36.60329411437633!3d-1.2501299360608686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1ed68de83bc9%3A0xfb8ea69dcd0259a4!2sPMVR%20R4C%2C%20Muthiga%20001%2C%20Waiyaki%20Way%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1646756992001!5m2!1sen!2ske" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- Academics Section 3: Faculty -->
+    <div class="section bg-light">
+        <div class="container">
+            <div class="section-heading animate__animated animate__fadeInUp">
+                <h2>Our Exceptional Faculty</h2>
+                <p>Our dedicated and experienced faculty members are passionate about teaching and committed to helping students reach their full potential.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animate__animated animate__fadeInUp">
+                    <div class="card">
+                        <img src="faculty-1.jpg" alt="Faculty Member" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Mathematics Teacher</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-1s">
+                    <div class="card">
+                        <img src="faculty-2.jpg" alt="Faculty Member" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Science Teacher</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__fadeInUp animate__delay-2s">
+                    <div class="card">
+                        <img src="faculty-3.jpg" alt="Faculty Member" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Johnson</h5>
+                            <p class="card-text">English Teacher</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<!-- Contact End -->
-<style>
-.contact-form {
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-}
 
-.form-group {
-    margin-bottom: 25px;
-}
+    <!-- Academics Section 4: Facilities -->
+    <div class="section">
+        <div class="container">
+            <div class="section-heading animate__animated animate__fadeInUp">
+                <h2>State-of-the-Art Facilities</h2>
+                <p>Our campus features modern facilities and resources to support a dynamic and engaging learning experience.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <img src="facilities-1.jpg" alt="School Facilities" class="img-fluid">
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <h3>Libraries and Resource Centers</h3>
+                    <p>Our well-stocked libraries and resource centers provide students with access to a wealth of knowledge and resources to support their academic pursuits.</p>
+                    <h3>Science Laboratories</h3>
+                    <p>Our state-of-the-art science laboratories are equipped with the latest equipment and technology, allowing students to engage in hands-on experiments and explore scientific concepts in depth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-.form-control {
-    height: 60px;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-}
+    <!-- Academics Section 5: Student Life -->
+    <div class="section bg-light">
+        <div class="container">
+            <div class="section-heading animate__animated animate__fadeInUp">
+                <h2>Vibrant Student Life</h2>
+                <p>At Muthiga Academy, we believe in fostering a vibrant and inclusive student community.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <h3>Student Clubs and Organizations</h3>
+                    <p>Our students have the opportunity to join various clubs and organizations based on their interests, such as the drama club, debate team, or environmental club.</p>
+                    <h3>School Events and Activities</h3>
+                    <p>Throughout the year, we organize a variety of events and activities, including school plays, concerts, sports tournaments, and cultural festivals, to celebrate diversity and foster a sense of community.</p>
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <img src="student-life.jpg" alt="Student Life" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
 
-.form-control:focus {
-    box-shadow: none;
-    border-color: #009cff;
-}
+    <!-- Footer -->
+    <!-- ... -->
 
-textarea.form-control {
-    height: auto;
-}
-
-.map-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-}
-
-.map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-@media (max-width: 991.98px) {
-    .map-container {
-        padding-bottom: 75%; /* Adjust aspect ratio for smaller screens */
-    }
-}
-
-</style>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add animate__animated class to elements on scroll
+            $(window).scroll(function() {
+                $('.animate__animated').each(function() {
+                    var elementPos = $(this).offset().top;
+                    var topOfWindow = $(window).scrollTop() + $(window).height() - 100;
+                    if (elementPos < topOfWindow) {
+                        $(this).addClass('animate__slideInUp');
+                    }
+                });
+            });
+        });
+    </script>
 
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -239,7 +312,7 @@ textarea.form-control {
                     </div>
                 </div>
                 <div class="col-md-6 mb-5">
-                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
+                    <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">What we offer </h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Numeracy</a>
                         <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Literacy</a>
