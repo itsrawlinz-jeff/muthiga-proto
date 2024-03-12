@@ -11,7 +11,7 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --sky-blue: skyblue;
+  --sky-blue: #63A4FF;
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
@@ -19,7 +19,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: skyblue;
+  --primary: #63A4FF;
   --secondary: #F2F1F8;
   --success: #28a745;
   --info: #17a2b8;
@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: skyblue;
+  color: #63A4FF;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2371,8 +2371,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: skyblue;
-  border-color: skyblue;
+  background-color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .btn-primary:hover {
@@ -2390,8 +2390,8 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: skyblue;
-  border-color: skyblue;
+  background-color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -2666,14 +2666,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: skyblue;
-  border-color: skyblue;
+  color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: skyblue;
-  border-color: skyblue;
+  background-color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2681,15 +2681,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: skyblue;
+  color: #63A4FF;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: skyblue;
-  border-color: skyblue;
+  background-color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2923,7 +2923,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: skyblue;
+  color: #63A4FF;
   text-decoration: none;
 }
 
@@ -3221,7 +3221,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: skyblue;
+  background-color: #63A4FF;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3580,8 +3580,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: skyblue;
-  background-color: skyblue;
+  border-color: #63A4FF;
+  background-color: #63A4FF;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3645,8 +3645,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: skyblue;
-  background-color: skyblue;
+  border-color: #63A4FF;
+  background-color: #63A4FF;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3872,7 +3872,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: skyblue;
+  background-color: #63A4FF;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3902,7 +3902,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: skyblue;
+  background-color: #63A4FF;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3935,7 +3935,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: skyblue;
+  background-color: #63A4FF;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4074,7 +4074,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: skyblue;
+  background-color: #63A4FF;
 }
 
 .nav-fill > .nav-link,
@@ -4741,7 +4741,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: skyblue;
+  color: #63A4FF;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4774,8 +4774,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: skyblue;
-  border-color: skyblue;
+  background-color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .page-item.disabled .page-link {
@@ -4858,7 +4858,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: skyblue;
+  background-color: #63A4FF;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5163,7 +5163,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: skyblue;
+  background-color: #63A4FF;
   transition: width 0.6s ease;
 }
 
@@ -5250,8 +5250,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: skyblue;
-  border-color: skyblue;
+  background-color: #63A4FF;
+  border-color: #63A4FF;
 }
 
 .list-group-item + .list-group-item {
@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: skyblue !important;
+  background-color: #63A4FF !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6483,7 +6483,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: skyblue !important;
+  border-color: #63A4FF !important;
 }
 
 .border-secondary {
@@ -9525,7 +9525,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: skyblue !important;
+  color: #63A4FF !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9772,7 +9772,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: skyblue;
+  color: #63A4FF;
 }
 
 @media (max-width: 991.98px) {
@@ -9817,7 +9817,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background: skyblue;
+  background: #63A4FF;
 }
 
 @media (max-width: 991.98px) {
@@ -9910,7 +9910,7 @@ h6,
   width: 15px;
   height: 15px;
   border-radius: 15px;
-  background: skyblue;
+  background: #63A4FF;
 }
 
 .testimonial-carousel .owl-dot::after {
@@ -9920,7 +9920,7 @@ h6,
   right: -5px;
   bottom: -5px;
   left: -5px;
-  border: 2px solid skyblue;
+  border: 2px solid #63A4FF;
   border-radius: 20px;
 }
 
