@@ -345,6 +345,43 @@
         </div>
     </div>
 </div>
+<script>
+    var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?26973';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+    "enabled":true,
+    "chatButtonSetting":{
+        "backgroundColor":"#00e785",
+        "ctaText":"Chat with us",
+        "borderRadius":"25",
+        "marginLeft": "0",
+        "marginRight": "20",
+        "marginBottom": "20",
+        "ctaIconWATI":false,
+        "position":"right"
+    },
+    "brandSetting":{
+        "brandName":"Muthiga JSS",
+        "brandSubTitle":"undefined",
+        "brandImg":"https://www.wati.io/wp-content/uploads/2023/04/Wati-logo.svg",
+        "welcomeText":"Hi there!\nHow can we help you?",
+        "messageText":"Hello",
+        "backgroundColor":"#00e785",
+        "ctaText":"Chat with us",
+        "borderRadius":"25",
+        "autoShow":true,
+        "phoneNumber":"254711410179"
+    }
+    };
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
 <!-- Footer End -->
 
 <!-- JavaScript Libraries -->
