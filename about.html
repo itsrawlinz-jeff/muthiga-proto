@@ -71,7 +71,7 @@
                 <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
                 <div class="text-left">
                     <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
-                    <small>info@muthigaprimary.ac.ke</small>
+                    <small>info@muthigacademy.ac.ke</small>
                 </div>
             </div>
         </div>
@@ -91,32 +91,41 @@
 
 <!-- Navbar Start -->
 <div class="container-fluid" style="background-color: white !important;">
-    <div class="row border-top px-xl-5">
-        <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0" style="background-color: white !important;">
-                <div class="d-flex justify-content-between align-items-center w-100">
-                    <!-- Logo -->
-                    <a href="index.html" class="text-decoration-none d-block mr-3">                        <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;">
-                        <b style="font-size: 40px !important;">MUTHIGA ACADEMY & JSS</b>
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div id="navbarCollapse" class="navbar-collapse collapse">
-                    <div class="navbar-nav ml-auto py-0" style="font-size: larger !important; background-color: white !important;">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="academics.html" class="nav-item nav-link">Academics</a>
-                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
-            </nav>
+  <div class="row border-top px-xl-5">
+    <div class="col-lg-12">
+      <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0" style="background-color: white !important;">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <!-- Logo -->
+          <a href="index.html" class="text-decoration-none d-block mr-3">
+            <img src="img/logo.png" alt="MUTHIGA Logo" style="max-width: 100px;">
+            <span class="logo-text">MUTHIGA ACADEMY & JSS</span>
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
+        <div id="navbarCollapse" class="navbar-collapse collapse">
+          <div class="navbar-nav ml-auto py-0" style="font-size: larger !important; background-color: white !important;">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="academics.html" class="nav-item nav-link">Academics</a>
+            <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+        </div>
+      </nav>
     </div>
+  </div>
 </div>
 <!-- Navbar End -->
+
+<style>
+  @media (max-width: 767px) {
+    .logo-text {
+      display: none;
+    }
+  }
+</style>
     
     
     <!-- About Section -->
@@ -125,11 +134,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h2 class="text-primary mb-4">About Muthiga Academy</h2>
-                    <p>Muthiga Academy is a distinguished educational institution located in Kiambu, Kenya. With our motto "The Secure Foundation," our vision is to foster a community where all children feel loved, respected, and encouraged to develop to their full potential.</p>
-                    <p>We prioritize providing a well-rounded education that values both academic excellence and holistic development. Our dedicated faculty members are committed to nurturing young minds and helping students achieve their personal and academic goals.</p>
+                    <p style="font-size: 26px; color: white;"><b><u>Muthiga Academy</u></b> is a distinguished educational institution located in Kiambu, Kenya. With our motto "The Secure Foundation," our vision is to foster a community where all children feel loved, respected, and encouraged to develop to their full potential.</p>
+                    <!-- <p style="font-size: 26px; color: white;">At <b><u>Muthiga Academy</u></b>, we prioritize providing a well-rounded education that values both academic excellence and holistic development. Our dedicated faculty members are committed to nurturing young minds and helping students achieve their personal and academic goals. We offer the national Competency Based Curriculum (CBC) that is designed to inspire creativity, critical thinking, and a lifelong love for learning.</p> -->
+                    <!-- <p style="font-size: 26px;">Our school provides a supportive and inclusive environment where students can thrive academically, socially, and emotionally. <b><u>Muthiga Academy</u></b> is equipped with modern facilities and resources to support various extracurricular activities. We believe in a balanced approach to education, ensuring that students have opportunities to explore their interests beyond the classroom.</p> -->
+                    <!-- <p style="font-size: 26px;">Our commitment to excellence, community, and cultivating a sense of security and belonging sets <b><u>Muthiga Academy</u></b> apart as an exceptional educational institution in Kiambu, Kenya. We are proud to provide a secure foundation for our students as they embark on their educational journey.</p> -->
                 </div>
                 <div class="col-lg-6">
-                    <img src="https://via.placeholder.com/500x300" class="img-fluid rounded" alt="About Image">
+                    <img src="img/abt.jpg" class="img-fluid rounded" alt="About Image">
                 </div>
             </div>
         </div>
@@ -171,57 +182,72 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-primary mb-4 text-center">What Our Students Say</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card testimonial-card h-100">
-                        <div class="card-body">
-                            <p class="card-text">"Muthiga Academy has been an amazing experience. The teachers are supportive, and the school environment encourages learning and growth."</p>
-                            <div class="d-flex align-items-center mt-3">
-                                <img src="https://via.placeholder.com/50" class="rounded-circle mr-3" alt="Student Photo">
-                                <div>
-                                    <h6 class="mb-0">Jane Doe</h6>
-                                    <small>Grade 8 Student</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card testimonial-card h-100">
-                        <div class="card-body">
-                            <p class="card-text">"The extracurricular activities at Muthiga Academy have helped me discover my talents and passions. It's a truly well-rounded experience."</p>
-                            <div class="d-flex align-items-center mt-3">
-                                <img src="https://via.placeholder.com/50" class="rounded-circle mr-3" alt="Student Photo">
-                                <div>
-                                    <h6 class="mb-0">John Smith</h6>
-                                    <small>Grade 10 Student</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card testimonial-card h-100">
-                        <div class="card-body">
-                            <p class="card-text">"The teachers at Muthiga Academy are dedicated and knowledgeable. They have helped me achieve my academic goals and prepared me for future challenges."</p>
-                            <div class="d-flex align-items-center mt-3">
-                                <img src="https://via.placeholder.com/50" class="rounded-circle mr-3" alt="Student Photo">
-                                <div>
-                                    <h6 class="mb-0">Sarah Lee</h6>
-                                    <small>Grade 12 Student</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+   
+<!-- Faculty Section Start -->
+<section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Meet Our Dedicated Faculty</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-img-top-wrapper">
+              <img src="img/faculty-1.jpg" class="card-img-top" alt="Faculty 1">
             </div>
+            <div class="card-body">
+              <h5 class="card-title">John Doe</h5>
+              <p class="card-text">Principal</p>
+              <p class="card-text hover-text">Passionate about education and committed to nurturing young minds.</p>
+            </div>
+          </div>
         </div>
-    </section>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-img-top-wrapper">
+              <img src="img/faculty-2.jpg" class="card-img-top" alt="Faculty 2">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Jane Smith</h5>
+              <p class="card-text">Vice Principal</p>
+              <p class="card-text hover-text">Dedicated to creating an environment that fosters learning and growth.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-img-top-wrapper">
+              <img src="img/faculty-3.jpg" class="card-img-top" alt="Faculty 3">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Michael Johnson</h5>
+              <p class="card-text">Academic Coordinator</p>
+              <p class="card-text hover-text">Committed to ensuring academic excellence and student success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Faculty Section End -->
+  <style>
+    .hover-text {
+  display: none;
+}
 
+.card:hover .hover-text {
+  display: block;
+}
+    .card-img-top-wrapper {
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  </style>
+  
     
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -232,7 +258,7 @@
                     <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
                     <p><i class="fa fa-map-marker-alt mr-2"></i>Muthiga, Kiambu, Kenya</p>
                     <p><i class="fa fa-phone-alt mr-2"></i>254 711 410 179</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@muthigaprimary.ac.ke</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@muthigacademy.ac.ke</p>
                     <div class="d-flex justify-content-start mt-4">
                         <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -269,7 +295,7 @@
 <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
     <div class="row">
         <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-            <p class="m-0 text-white">&copy; <a href="#">Muthiga Academy</a>. All Rights Reserved.</p>
+            <p class="m-0 text-white">&copy; <a href="#">Muthiga Academy</a>. All Rights Reserved 2024.</p>
         </div>
         <div class="col-lg-6 text-center text-md-right">
             <ul class="nav d-inline-flex">
